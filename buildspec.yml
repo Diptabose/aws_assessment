@@ -18,4 +18,6 @@ phases:
       - docker push 864899837235.dkr.ecr.ap-south-1.amazonaws.com/diptabose484/awstraining:assessment
 
 artifacts:
-  files: appspec.yml
+  files:
+    - '**/*'
+  name: assessment-artifacts
